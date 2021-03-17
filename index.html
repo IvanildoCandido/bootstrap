@@ -13,6 +13,18 @@
         background: #ddd;
         text-align: center;
       }
+      .row {
+        padding: 10px;
+      }
+      .box {
+        background-color: #ff9999;
+        height: 200px;
+      }
+
+      .box .row {
+          padding: 10px;
+          height: 200px;
+      }
     </style>
     <title>Projeto Bootstrap 4</title>
   </head>
@@ -26,6 +38,13 @@
         <div class="col-sm order-3">4</div>
         <div class="col-sm-3 order-1">5</div>
         <div class="col-sm-3 order-2">6</div>
+      </div>
+      <div class="container box">
+        <div class="row justify-content-end align-items-end">
+          <div class="col-3">Primeira</div>
+          <div class="col-3">Segunda</div>
+          <div class="col-3">Terceira</div>
+        </div>
       </div>
     </div>
     <!-- Imports para funcionamento do bootstrap -->
