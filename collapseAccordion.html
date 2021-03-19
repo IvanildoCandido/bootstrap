@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <title>Collapse e Accordion</title>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h1>Accordion</h1>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <button
+              class="btn btn-link"
+              data-toggle="collapse"
+              data-target="#c1"
+              aria-controls="#c1"
+            >
+              Título do card 1
+            </button>
+          </div>
+          <div id="c1" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At id
+              saepe harum voluptatibus laudantium tempora dicta sequi odit
+              iusto! Numquam sint laudantium corrupti, beatae soluta possimus!
+              Quo at mollitia amet!
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <button
+              class="btn btn-link"
+              data-toggle="collapse"
+              data-target="#c2"
+              aria-controls="#c2"
+            >
+              Título do card 2
+            </button>
+          </div>
+          <div id="c2" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At id
+              saepe harum voluptatibus laudantium tempora dicta sequi odit
+              iusto! Numquam sint laudantium corrupti, beatae soluta possimus!
+              Quo at mollitia amet!
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <button
+              class="btn btn-link"
+              data-toggle="collapse"
+              data-target="#c3"
+              aria-controls="#c3"
+            >
+              Título do card 3
+            </button>
+          </div>
+          <div id="c3" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At id
+              saepe harum voluptatibus laudantium tempora dicta sequi odit
+              iusto! Numquam sint laudantium corrupti, beatae soluta possimus!
+              Quo at mollitia amet!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
